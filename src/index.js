@@ -11,8 +11,6 @@ const refs = {
   listEl: document.querySelector(`.country-list`),
   countryEl: document.querySelector(`.country-info`),
 };
-console.log(refs.listEl);
-console.log(refs.countryEl);
 
 refs.inputEl.addEventListener('input', debounce(onInput, DEBOUNCE_DELAY));
 
